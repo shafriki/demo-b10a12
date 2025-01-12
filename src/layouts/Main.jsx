@@ -7,7 +7,10 @@ const Main = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            {/* outlet part with accurate height */}
+            <div className="min-h-[calc(100vh-427px)] ">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
