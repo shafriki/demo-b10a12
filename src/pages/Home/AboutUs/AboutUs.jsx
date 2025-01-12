@@ -9,7 +9,7 @@ const AboutUs = () => {
             style={{ backgroundImage: "url('https://i.ibb.co.com/zf11NYq/pexels-francesco-ungaro-673648.jpg')" }}
         >
             {/* Text Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80">
                 {/* Optional overlay text */}
             </div>
 
