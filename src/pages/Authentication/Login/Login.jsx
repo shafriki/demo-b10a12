@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { RiLockPasswordFill } from 'react-icons/ri';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,10 +40,13 @@ const Login = () => {
         <form className="space-y-6">
           {/* Email input */}
           <div className="relative flex items-center">
+            <span className="absolute">
+              <MdEmail className="ml-3 text-gray-600 text-2xl" />
+            </span>
             <input
               type="email"
               name="email"
-              className="block w-full py-3 text-gray-700 bg-white border rounded-md px-4"
+              className="block w-full py-3 text-gray-700 bg-white border rounded-md px-11"
               placeholder="Enter Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -51,13 +56,16 @@ const Login = () => {
 
           {/* Password input */}
           <div className="relative flex items-center">
+            <span className="absolute">
+              <RiLockPasswordFill className="ml-3 text-gray-600 text-2xl" />
+            </span>
             <span className="absolute top-4 right-4 cursor-pointer" onClick={togglePasswordVisibility}>
               {passwordVisible ? <FaEye className="text-gray-700" /> : <FaEyeSlash className="text-gray-700" />}
             </span>
             <input
               type={passwordVisible ? "text" : "password"}
               name="password"
-              className="block w-full px-4 py-3 text-gray-700 bg-white border rounded-md"
+              className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-md"
               placeholder="Enter Your Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
