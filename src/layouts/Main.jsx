@@ -8,7 +8,7 @@ const Main = () => {
         <div>
             <Navbar></Navbar>
             {/* outlet part with accurate height */}
-            <div className="min-h-[calc(100vh-427px)] ">
+            <div className="min-h-[calc(100vh-370px)] ">
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
