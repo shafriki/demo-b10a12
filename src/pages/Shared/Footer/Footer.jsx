@@ -63,7 +63,7 @@ const Footer = () => {
                 </footer>
 
                {/* footer two */}
-                    <footer className="footer-center bg-base-200 pb-2 border-gray-500  bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] text-white">
+                    <footer className="footer-center bg-base-200 py-2 border-gray-500  bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] text-white">
                     {/* copy right */}
                     <aside>
                         <p className='text-xs md:text-lg mb-2'>Follow Us On </p>
@@ -87,7 +87,7 @@ const Footer = () => {
 
                     <footer className="footer-center bg-base-200 p-2 border-gray-500 border-t bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] text-white">
                         <aside>
-                            <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                            <p className='text-xs md:text-base'>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
                         </aside>
                     </footer>
 
