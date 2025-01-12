@@ -7,28 +7,28 @@ import { MdLabelImportant } from "react-icons/md";
 const Latest = () => {
     return (
         <div className='flex mx-1 mb-5 items-center  gap-2 bg-base-200 p-2 text-xs md:text-base bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] opacity-90 text-white'>
-            <p className='bg-[#228B22] px-4 py-2 text-white whitespace-nowrap'>Upcoming Marathons</p>
+            <p className='bg-[#2AB7B1] px-4 py-2 text-[#070A16]  whitespace-nowrap'>Upcoming Marathons</p>
 
             <Marquee autoFill='ture' pauseOnHover='ture'>
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>
                 Dhaka City Marathon 2024</Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Chattogram Coastal Run
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Chattogram Coastal Run
                 </Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Sylhet Tea Garden Trail
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Sylhet Tea Garden Trail
                 </Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Rajshahi Heritage Marathon
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Rajshahi Heritage Marathon
                 </Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Cox’s Bazar Beach Run
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Cox’s Bazar Beach Run
                 </Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Khulna Eco Run
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Khulna Eco Run
                 </Link>
 
-                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#228B22] text-xl'/>Barisal Riverfront Run
+                <Link className='ml-10 flex items-center gap-1'><MdLabelImportant  className='text-[#2AB7B1] text-xl'/>Barisal Riverfront Run
                 </Link>
 
             </Marquee>

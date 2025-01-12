@@ -21,7 +21,7 @@ const Footer = () => {
                 {/* company logo section */}
                 <aside>
                     <img src='' className='w-16 md:w-20' />
-                    <p>
+                    <p className='text-[#2AB7B1]'>
                     প্রতিদৌড়
                     <br />
                     Connecting runners,<br /> organizing marathons effortlessly.
@@ -30,22 +30,22 @@ const Footer = () => {
 
                 {/* contact us section */}
                 <nav>
-                    <h6 className="footer-title">Contact Us</h6>
+                    <h6 className="footer-title text-[#2AB7B1]">Contact Us</h6>
                     <a className="link link-hover">Head office</a>
-                    <a className="link link-hover flex items-center gap-1"><SiGooglemaps className='text-lg text-[#af025c]'/>
+                    <a className="link link-hover flex items-center gap-1"><SiGooglemaps className='text-lg text-[#2AB7B1]'/>
                     Rajshahi, Dhaka Bangladesh</a>
-                    <a className="link link-hover flex items-center gap-1"><FaPhoneAlt className='text-[#af025c]'/>
+                    <a className="link link-hover flex items-center gap-1"><FaPhoneAlt className='text-[#2AB7B1]'/>
                     +88 01786141015</a>
-                    <a className="link link-hover flex items-center gap-1"><FaWhatsapp className='text-lg text-[#af025c]'/>
+                    <a className="link link-hover flex items-center gap-1"><FaWhatsapp className='text-lg text-[#2AB7B1]'/>
                     +88 01786141015 ( Message only )</a>
-                    <a className="link link-hover flex items-center gap-1"><SiOpenstreetmap className='text-lg text-[#af025c]'/>
-                    Map Link: <p className='text-[#bb387c]'>https://maps.google.com/</p></a>
+                    <a className="link link-hover flex items-center gap-1"><SiOpenstreetmap className='text-lg text-[#2AB7B1]'/>
+                    Map Link: <p className='text-[#2AB7B1]'>https://maps.google.com/</p></a>
 
                 </nav>
 
                 {/* navlink section */}
                 <nav>
-                    <h6 className="footer-title">প্রতিদৌড়</h6>
+                    <h6 className="footer-title text-[#2AB7B1]">প্রতিদৌড়</h6>
                     <Link to='/marathons' className="link link-hover">Marathons</Link>
                     <Link to='add-marathons' className="link link-hover">Add Marathons</Link>
                     <Link to='my-marathons' className="link link-hover">My Marathons</Link>
@@ -54,7 +54,7 @@ const Footer = () => {
 
                 {/* legal condition section */}
                 <nav>
-                    <h6 className="footer-title">Legal</h6>
+                    <h6 className="footer-title text-[#2AB7B1]">Legal</h6>
                     <a className="link link-hover">Terms of use</a>
                     <a className="link link-hover">Privacy policy</a>
                     <a className="link link-hover">Cookie policy</a>
@@ -72,15 +72,15 @@ const Footer = () => {
                     {/* social icons */}
                     <nav className=''>
                         <div className="grid grid-flow-col gap-2 md:gap-4 justify-center">
-                            <a><FaSquareFacebook className='text-2xl md:text-3xl text-white'/></a>
+                            <a><FaSquareFacebook className='text-2xl md:text-3xl text-[#2AB7B1] '/></a>
 
-                            <a><FaSquareInstagram className='text-2xl md:text-3xl text-white'/></a>
+                            <a><FaSquareInstagram className='text-2xl md:text-3xl text-[#2AB7B1]'/></a>
 
-                            <a><IoLogoYoutube className='text-2xl md:text-3xl text-white'/></a>
+                            <a><IoLogoYoutube className='text-2xl md:text-3xl text-[#2AB7B1]'/></a>
 
-                            <a><IoLogoLinkedin className='text-2xl md:text-3xl text-white'/></a>
+                            <a><IoLogoLinkedin className='text-2xl md:text-3xl text-[#2AB7B1]'/></a>
 
-                            <a><IoLogoTwitter className='text-2xl md:text-3xl text-white'/></a>
+                            <a><IoLogoTwitter className='text-2xl md:text-3xl text-[#2AB7B1]'/></a>
                         </div>
                     </nav>                    
                     </footer>

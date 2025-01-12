@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] text-white fixed z-50 w-full backdrop-blur opacity-70 md:py-1'>
+        <div className='bg-gradient-to-r from-[#070A16] via-[#070A16] to-[#070A16] text-white fixed z-50 w-full backdrop-blur opacity-80 md:py-1'>
             <div className="navbar max-w-screen-xl mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li><a>Item 3</a></li>
                 </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl text-[#2AB7B1]">daisyUI</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn bg-[#2AB7B1] text-white border-none">Button</a>
             </div>
         </div>
         </div>

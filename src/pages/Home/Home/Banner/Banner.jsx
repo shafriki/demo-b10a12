@@ -55,7 +55,7 @@ const Banner = () => {
             autoFocus
             emulateTouch
             animationHandler={fadeAnimationHandler}
-            interval={4000}
+            interval={2700}
             infiniteLoop 
             stopOnHover={false}
             showThumbs={true}
