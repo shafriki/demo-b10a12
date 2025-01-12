@@ -10,7 +10,7 @@
 }
 
 .carousel .slide img {
-    max-height: 500px;  
+    max-height: 550px;  
     width: auto;
     object-fit: cover;
 }
