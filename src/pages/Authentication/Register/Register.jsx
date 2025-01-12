@@ -72,10 +72,14 @@ const Register = () => {
               <MdAddAPhoto className="ml-3 text-gray-600 text-2xl" />
             </span>
             <input
-              type="text"
+              type="file"
+              id="image"
+              name="image"
+              accept="image/*"
               className="block text-sm w-full py-3 text-gray-700 bg-white border rounded-lg px-11"
-              placeholder="Enter Photo URL"
+              required
             />
+
           </div>
 
           <div className="relative flex items-center mt-4">
